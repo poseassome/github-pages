@@ -1,0 +1,30 @@
+@charset "utf-8";
+* {font-family: 'Source Code Pro', monospace; color:#fff; margin: 0; padding:0}
+span {display: block; width: fit-content;}
+li {list-style: '👉 '; list-style-position: inside;}
+
+#login-form {width:500px; margin:200px auto 100px; height:30px; position: relative;}
+#greet {width:500px; margin:200px auto 80px; position: relative; text-align: center; font-size: 50px;}
+#login-form h2 {position: absolute; top:0px; width: 300px; text-align: center; z-index: -100; transition-property:top; transition-duration:1s;}
+#login-form input:nth-child(2) {width:300px; height: 30px; font-size: 20px; text-align: center; background: transparent; border:none; border-bottom: 2px solid #fff;}
+/* #login-form input:first-child::placeholder {color:#fff;} */
+#login-form input:last-child {height:30px; width:100px; border: none; background:#12438885; border-radius: 5px; margin-left: 20px;}
+
+#contentwrap {width: 700px; margin: 0 auto;}
+
+#nowwrap {width:250px; float:left;}
+#now{text-align: center; font-size: 30px; margin-bottom: 20px; font-style: italic; text-shadow: 3px 0px 3px #000;}
+#clock{font-size: 50px; text-align: center; margin-bottom: 20px;}
+#weather{font-size: 30px;}
+#weather span:first-child{text-align: center; width: 100%;}
+#weather span:nth-child(2){float: left;}
+#weather span:last-child{float: right;}
+
+#todo-form input {width:300px; height:30px; color:#124388; font-weight: bold; padding:0 10px; border-radius: 5px; border: none; margin-bottom: 20px;}
+#todo-form input::placeholder{text-align: center;}
+#todowrap {float: right;}
+
+#quote{position:absolute; bottom:0; margin-bottom: 20px; font-size: 12px; width: 100%;}
+#quote span:first-child {float: left; padding-left: 30px;}
+#quote span:last-child {float: right; padding-right: 30px;}
+.hidden {display: none;}
